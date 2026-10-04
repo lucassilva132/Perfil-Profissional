@@ -26,17 +26,25 @@ Este projeto foi criado para funcionar como uma landing page profissional, com f
 
 ## Como visualizar localmente
 
-Você pode abrir o arquivo `index.html` diretamente no navegador ou iniciar um servidor local:
+O README apenas mostra os comandos; eles precisam ser executados no terminal. Para iniciar um servidor local:
+
+1. Abra a pasta do projeto no VS Code.
+2. Abra o terminal integrado (**Terminal → Novo Terminal**). Confirme que o terminal está na pasta que contém `index.html`.
+3. Execute:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Em seguida, acesse:
+Enquanto o servidor estiver em execução, abra este endereço no navegador:
 
 ```text
 http://localhost:8000
 ```
+
+Para parar o servidor, volte ao terminal e pressione `Ctrl+C`. Se o comando `python3` não for encontrado, tente `python -m http.server 8000`.
+
+Como alternativa, você pode abrir `index.html` diretamente no navegador.
 
 ## Autor
 
